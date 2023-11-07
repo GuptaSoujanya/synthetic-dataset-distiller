@@ -1,0 +1,6 @@
+# Engineering Changelog: synthetic-dataset-distiller
+
+Inception Date: 2023-11-07
+Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
+
+- [2023-11-07] chore: scaffold synthetic dataset distiller project and pyproject.toml
