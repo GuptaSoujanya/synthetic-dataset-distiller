@@ -8,3 +8,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-09] feat: implement InDepthEvolution deepening mutator
 - [2023-11-10] feat: add reasoning depth mutation operator increasing logical steps
 - [2023-11-11] feat: add constraint addition mutation operator restricting solution space
+- [2023-11-12] test: add unit tests verifying prompt length and constraint expansion
