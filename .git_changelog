@@ -10,3 +10,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-11] feat: add constraint addition mutation operator restricting solution space
 - [2023-11-12] test: add unit tests verifying prompt length and constraint expansion
 - [2023-11-13] feat: implement InBreadthEvolution topic diversification operator
+- [2023-11-15] test: verify breadth mutator produces novel domain prompts
