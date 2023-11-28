@@ -22,3 +22,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-25] feat: track mutation ancestry and tree lineage metadata
 - [2023-11-26] test: verify mutation lineage graph retains valid parent-child relations
 - [2023-11-27] feat: implement dataset-distill command line interface
+- [2023-11-28] perf: optimize n-gram counter calculation using collections.Counter
