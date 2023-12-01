@@ -24,3 +24,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-27] feat: implement dataset-distill command line interface
 - [2023-11-28] perf: optimize n-gram counter calculation using collections.Counter
 - [2023-11-30] docs: add pipeline flow diagram and mutation examples in README
+- [2023-12-01] feat: add toxicity and safety heuristic screening filter
