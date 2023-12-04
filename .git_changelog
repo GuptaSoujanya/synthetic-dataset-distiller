@@ -27,3 +27,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-01] feat: add toxicity and safety heuristic screening filter
 - [2023-12-02] feat: add code block syntax validation filter using ast.parse
 - [2023-12-03] test: verify code syntax filter rejects malformed python blocks
+- [2023-12-04] fix: handle empty prompt inputs without raising StopIteration
