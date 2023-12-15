@@ -36,3 +36,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-11] feat: add multi-step chain-of-thought prompt mutator
 - [2023-12-12] test: add unit tests for CoT prompt mutation formatting
 - [2023-12-13] fix: ensure random seed provides reproducible evolutionary trajectories
+- [2023-12-15] docs: add comparative diversity charts before and after evolution
