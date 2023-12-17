@@ -38,3 +38,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-13] fix: ensure random seed provides reproducible evolutionary trajectories
 - [2023-12-15] docs: add comparative diversity charts before and after evolution
 - [2023-12-16] feat: add --min-diversity and --max-mutations configuration flags in CLI
+- [2023-12-17] feat: add Parquet export option for large-scale datasets
