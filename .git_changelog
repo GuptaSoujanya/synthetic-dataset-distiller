@@ -42,3 +42,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-18] test: verify JSONL and Parquet exports preserve UTF-8 character encoding
 - [2023-12-19] fix: prevent infinite recursion in circular mutation dependencies
 - [2023-12-20] docs: update README with Alpaca vs Evol-Instruct benchmark metrics
+- [2023-12-22] perf: stream large dataset inputs without holding full corpus in memory
