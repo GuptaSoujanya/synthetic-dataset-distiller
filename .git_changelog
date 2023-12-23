@@ -43,3 +43,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-19] fix: prevent infinite recursion in circular mutation dependencies
 - [2023-12-20] docs: update README with Alpaca vs Evol-Instruct benchmark metrics
 - [2023-12-22] perf: stream large dataset inputs without holding full corpus in memory
+- [2023-12-23] feat: add deduplication filter using MinHash LSH similarity
