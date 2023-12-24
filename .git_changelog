@@ -46,3 +46,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-23] feat: add deduplication filter using MinHash LSH similarity
 - [2023-12-23] test: verify MinHash filter identifies near-duplicate prompt variants
 - [2023-12-24] refactor: modularize mutators, filters, and pipeline controllers
+- [2023-12-24] test: add end-to-end integration test running 5 generations of evolution
