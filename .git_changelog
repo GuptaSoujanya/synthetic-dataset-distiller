@@ -49,3 +49,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-12-24] test: add end-to-end integration test running 5 generations of evolution
 - [2023-12-27] chore: bump version to v0.1.0 milestone and finalize initial release
 - [2024-01-12] feat: implement LLM-as-a-judge quality score estimation filter
+- [2024-01-28] feat: calculate reward model alignment scores on candidate responses
