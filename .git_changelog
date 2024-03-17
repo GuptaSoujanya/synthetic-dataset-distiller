@@ -52,3 +52,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-01-28] feat: calculate reward model alignment scores on candidate responses
 - [2024-02-13] test: add unit tests for quality score threshold gating
 - [2024-03-01] docs: document data curation filters used in Llama-3 instruction tuning
+- [2024-03-17] feat: add reasoning verifier for mathematical step-by-step solutions
