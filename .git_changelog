@@ -5,3 +5,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
 - [2024-03-28] chore: scaffold synthetic dataset distiller project and pyproject.toml
 - [2024-04-04] feat: implement BaseMutator abstract interface and MutationResult dataclass
+- [2024-04-12] feat: implement InDepthEvolution deepening mutator
