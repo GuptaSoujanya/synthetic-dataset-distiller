@@ -54,3 +54,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-03-01] docs: document data curation filters used in Llama-3 instruction tuning
 - [2024-03-17] feat: add reasoning verifier for mathematical step-by-step solutions
 - [2024-04-03] test: verify math solution verifier catches arithmetic calculation errors
+- [2024-04-19] fix: handle multi-line LaTeX equations inside generated prompts cleanly
