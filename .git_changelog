@@ -7,3 +7,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-04] feat: implement BaseMutator abstract interface and MutationResult dataclass
 - [2024-04-12] feat: implement InDepthEvolution deepening mutator
 - [2024-04-19] feat: add reasoning depth mutation operator increasing logical steps
+- [2024-04-27] feat: add constraint addition mutation operator restricting solution space
