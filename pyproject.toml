@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthetic-dataset-distiller"
+version = "0.2.8"
+description = "Reasoning dataset evolution, filtering, and quality distillation pipeline for LLM post-training."
+readme = "README.md"
+authors = [{ name = "Soujanya Gupta", email = "158287001+GuptaSoujanya@users.noreply.github.com" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+
+[project.scripts]
+distill-data = "distiller.cli:main"
