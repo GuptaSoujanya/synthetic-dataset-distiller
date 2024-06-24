@@ -58,3 +58,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-05] perf: parallelize mutation generation using multiprocessing worker pool
 - [2024-05-22] test: verify parallel worker pool achieves near-linear speedup on multi-core systems
 - [2024-06-07] docs: add multiprocessing performance tuning guide in docs/
+- [2024-06-24] feat: add dataset balance analyzer visualizing topic distribution
