@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-06-12] test: add unit tests for lexical diversity threshold filtering
 - [2024-06-19] docs: document Evol-Instruct methodology (WizardLM paper synthesis)
 - [2024-06-27] feat: implement Self-BLEU metric for dataset redundancy detection
+- [2024-07-05] test: add unit tests verifying Self-BLEU penalizes repetitive outputs
