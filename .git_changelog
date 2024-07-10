@@ -59,3 +59,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-22] test: verify parallel worker pool achieves near-linear speedup on multi-core systems
 - [2024-06-07] docs: add multiprocessing performance tuning guide in docs/
 - [2024-06-24] feat: add dataset balance analyzer visualizing topic distribution
+- [2024-07-10] feat: export topic distribution histograms in terminal ASCII format
