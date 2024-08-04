@@ -20,3 +20,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-12] ci: configure GitHub Actions automated test workflow
 - [2024-07-20] feat: implement multi-stage evolutionary distillation loop
 - [2024-07-28] feat: track mutation ancestry and tree lineage metadata
+- [2024-08-04] test: verify mutation lineage graph retains valid parent-child relations
