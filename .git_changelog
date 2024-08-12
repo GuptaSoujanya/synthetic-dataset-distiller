@@ -61,3 +61,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-06-24] feat: add dataset balance analyzer visualizing topic distribution
 - [2024-07-10] feat: export topic distribution histograms in terminal ASCII format
 - [2024-07-26] fix: resolve memory leak during long-running dataset generation runs
+- [2024-08-12] chore: bump release to v0.6.0 with parallel mutation engine
