@@ -28,3 +28,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-09-11] feat: add code block syntax validation filter using ast.parse
 - [2024-09-19] test: verify code syntax filter rejects malformed python blocks
 - [2024-09-27] fix: handle empty prompt inputs without raising StopIteration
+- [2024-10-04] feat: add distribution statistics for prompt complexity and token counts
