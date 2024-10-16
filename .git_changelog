@@ -65,3 +65,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-28] docs: update README with 100k synthetic dataset generation tutorial
 - [2024-09-13] test: add regression test suite verifying zero malformed JSONL outputs
 - [2024-09-30] feat: add support for Hugging Face datasets direct streaming upload
+- [2024-10-16] fix: handle network disconnect gracefully during dataset export
