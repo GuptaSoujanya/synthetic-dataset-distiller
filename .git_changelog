@@ -31,3 +31,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-10-04] feat: add distribution statistics for prompt complexity and token counts
 - [2024-10-12] feat: export synthetic dataset in JSONL format for fine-tuning pipelines
 - [2024-10-19] docs: add fine-tuning data preparation guide for Hugging Face datasets
+- [2024-10-27] perf: batch diversity calculations to avoid O(N^2) token comparisons
