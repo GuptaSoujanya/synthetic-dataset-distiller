@@ -45,3 +45,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-08] feat: add reasoning verifier for mathematical step-by-step solutions
 - [2025-03-21] test: verify math solution verifier catches arithmetic calculation errors
 - [2025-04-03] fix: handle multi-line LaTeX equations inside generated prompts cleanly
+- [2025-04-17] perf: parallelize mutation generation using multiprocessing worker pool
