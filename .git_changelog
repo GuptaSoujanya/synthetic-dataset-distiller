@@ -47,3 +47,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-03] fix: handle multi-line LaTeX equations inside generated prompts cleanly
 - [2025-04-17] perf: parallelize mutation generation using multiprocessing worker pool
 - [2025-04-30] test: verify parallel worker pool achieves near-linear speedup on multi-core systems
+- [2025-05-13] docs: add multiprocessing performance tuning guide in docs/
