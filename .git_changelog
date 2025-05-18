@@ -74,3 +74,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-15] docs: document synthetic preference data generation methodology for DPO/RLHF
 - [2025-04-05] feat: add multi-turn conversation evolutionary generator
 - [2025-04-27] feat: simulate follow-up user clarification and challenge queries
+- [2025-05-18] test: verify multi-turn generator maintains conversational context coherence
