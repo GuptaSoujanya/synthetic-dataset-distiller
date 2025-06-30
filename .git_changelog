@@ -76,3 +76,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-27] feat: simulate follow-up user clarification and challenge queries
 - [2025-05-18] test: verify multi-turn generator maintains conversational context coherence
 - [2025-06-09] docs: add case study on synthetic conversational data for coding assistants
+- [2025-06-30] perf: optimize preference pair comparison using vectorized embedding distance
