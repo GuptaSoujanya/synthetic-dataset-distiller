@@ -52,3 +52,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-06-08] feat: export topic distribution histograms in terminal ASCII format
 - [2025-06-21] fix: resolve memory leak during long-running dataset generation runs
 - [2025-07-05] feat: implement Direct Preference Optimization (DPO) chosen/rejected pair generator
+- [2025-07-18] feat: generate hard negative candidate responses via controlled degradation
