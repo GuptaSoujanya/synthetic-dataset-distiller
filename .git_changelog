@@ -80,3 +80,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-22] fix: ensure deterministic negative candidate generation under fixed random seed
 - [2025-08-12] chore: release v1.0.0 production milestone with DPO synthetic data pipeline
 - [2025-09-03] docs: publish comprehensive user guide for instruction fine-tuning datasets
+- [2025-09-24] chore: update linters and ensure 100% test coverage on core mutators
