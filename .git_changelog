@@ -61,3 +61,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-05] docs: add case study on synthetic conversational data for coding assistants
 - [2025-10-18] perf: optimize preference pair comparison using vectorized embedding distance
 - [2025-10-31] fix: ensure deterministic negative candidate generation under fixed random seed
+- [2025-11-13] chore: release v1.0.0 production milestone with DPO synthetic data pipeline
