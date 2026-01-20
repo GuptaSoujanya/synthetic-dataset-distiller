@@ -83,3 +83,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-24] chore: update linters and ensure 100% test coverage on core mutators
 - [2025-10-16] chore: refresh packaging metadata and bump version
 - [2025-11-06] chore: stabilize public API exports
+- [2026-01-20] feat: implement agentic trajectory distillation with tool call traces
