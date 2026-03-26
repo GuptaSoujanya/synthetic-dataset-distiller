@@ -85,3 +85,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-11-06] chore: stabilize public API exports
 - [2026-01-20] feat: implement agentic trajectory distillation with tool call traces
 - [2026-02-21] feat: generate synthetic multi-step tool invocation reasoning chains
+- [2026-03-26] test: verify synthetic tool execution outputs adhere to strict JSON schemas
