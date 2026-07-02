@@ -88,3 +88,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-26] test: verify synthetic tool execution outputs adhere to strict JSON schemas
 - [2026-04-27] docs: document agentic trajectory generation for function calling models
 - [2026-05-30] perf: optimize trajectory validation using fast structural schema checks
+- [2026-07-02] fix: ensure compatibility with Python 3.12 and modern typing conventions
