@@ -72,3 +72,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-05-19] test: verify zero schema violations across 10,000 synthetic agent traces
 - [2026-06-08] chore: bump version to v1.1.2 and update project badges
 - [2026-06-28] docs: add tutorial on fine-tuning reasoning models with synthetic data
+- [2026-07-19] test: add end-to-end integration tests for multi-turn distillation
