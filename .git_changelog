@@ -89,3 +89,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-04-27] docs: document agentic trajectory generation for function calling models
 - [2026-05-30] perf: optimize trajectory validation using fast structural schema checks
 - [2026-07-02] fix: ensure compatibility with Python 3.12 and modern typing conventions
+- [2026-08-03] test: verify zero schema violations across 10,000 synthetic agent traces
