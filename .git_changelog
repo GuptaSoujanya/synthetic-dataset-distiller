@@ -1,77 +1,12 @@
-# Engineering Changelog: synthetic-dataset-distiller
-
-Inception Date: 2024-03-28
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2024-03-28] chore: scaffold synthetic dataset distiller project and pyproject.toml
-- [2024-04-04] feat: implement BaseMutator abstract interface and MutationResult dataclass
-- [2024-04-12] feat: implement InDepthEvolution deepening mutator
-- [2024-04-19] feat: add reasoning depth mutation operator increasing logical steps
-- [2024-04-27] feat: add constraint addition mutation operator restricting solution space
-- [2024-05-05] test: add unit tests verifying prompt length and constraint expansion
-- [2024-05-12] feat: implement InBreadthEvolution topic diversification operator
-- [2024-05-20] test: verify breadth mutator produces novel domain prompts
-- [2024-05-28] feat: implement length and punctuation sanity filters
-- [2024-06-04] feat: implement n-gram lexical diversity calculator
-- [2024-06-12] test: add unit tests for lexical diversity threshold filtering
-- [2024-06-19] docs: document Evol-Instruct methodology (WizardLM paper synthesis)
-- [2024-06-27] feat: implement Self-BLEU metric for dataset redundancy detection
-- [2024-07-05] test: add unit tests verifying Self-BLEU penalizes repetitive outputs
-- [2024-07-12] ci: configure GitHub Actions automated test workflow
-- [2024-07-20] feat: implement multi-stage evolutionary distillation loop
-- [2024-07-28] feat: track mutation ancestry and tree lineage metadata
-- [2024-08-04] test: verify mutation lineage graph retains valid parent-child relations
-- [2024-08-12] feat: implement dataset-distill command line interface
-- [2024-08-19] perf: optimize n-gram counter calculation using collections.Counter
-- [2024-08-27] docs: add pipeline flow diagram and mutation examples in README
-- [2024-09-04] feat: add toxicity and safety heuristic screening filter
-- [2024-09-11] feat: add code block syntax validation filter using ast.parse
-- [2024-09-19] test: verify code syntax filter rejects malformed python blocks
-- [2024-09-27] fix: handle empty prompt inputs without raising StopIteration
-- [2024-10-04] feat: add distribution statistics for prompt complexity and token counts
-- [2024-10-12] feat: export synthetic dataset in JSONL format for fine-tuning pipelines
-- [2024-10-19] docs: add fine-tuning data preparation guide for Hugging Face datasets
-- [2024-10-27] perf: batch diversity calculations to avoid O(N^2) token comparisons
-- [2024-11-04] feat: add concretization mutation converting abstract queries to concrete scenarios
-- [2024-11-11] feat: add multi-step chain-of-thought prompt mutator
-- [2024-11-19] test: add unit tests for CoT prompt mutation formatting
-- [2024-11-27] fix: ensure random seed provides reproducible evolutionary trajectories
-- [2024-12-04] docs: add comparative diversity charts before and after evolution
-- [2024-12-12] chore: bump version to v0.6.0 milestone and finalize initial release
-- [2025-01-15] feat: implement LLM-as-a-judge quality score estimation filter
-- [2025-01-28] feat: calculate reward model alignment scores on candidate responses
-- [2025-02-10] test: add unit tests for quality score threshold gating
-- [2025-02-23] docs: document data curation filters used in Llama-3 instruction tuning
-- [2025-03-08] feat: add reasoning verifier for mathematical step-by-step solutions
-- [2025-03-21] test: verify math solution verifier catches arithmetic calculation errors
-- [2025-04-03] fix: handle multi-line LaTeX equations inside generated prompts cleanly
-- [2025-04-17] perf: parallelize mutation generation using multiprocessing worker pool
-- [2025-04-30] test: verify parallel worker pool achieves near-linear speedup on multi-core systems
-- [2025-05-13] docs: add multiprocessing performance tuning guide in docs/
-- [2025-05-26] feat: add dataset balance analyzer visualizing topic distribution
-- [2025-06-08] feat: export topic distribution histograms in terminal ASCII format
-- [2025-06-21] fix: resolve memory leak during long-running dataset generation runs
-- [2025-07-05] feat: implement Direct Preference Optimization (DPO) chosen/rejected pair generator
-- [2025-07-18] feat: generate hard negative candidate responses via controlled degradation
-- [2025-07-31] test: add unit tests verifying chosen response strictly dominates rejected candidate
-- [2025-08-13] docs: document synthetic preference data generation methodology for DPO/RLHF
-- [2025-08-26] feat: add multi-turn conversation evolutionary generator
-- [2025-09-08] feat: simulate follow-up user clarification and challenge queries
-- [2025-09-22] test: verify multi-turn generator maintains conversational context coherence
-- [2025-10-05] docs: add case study on synthetic conversational data for coding assistants
-- [2025-10-18] perf: optimize preference pair comparison using vectorized embedding distance
-- [2025-10-31] fix: ensure deterministic negative candidate generation under fixed random seed
-- [2025-11-13] chore: release v1.0.0 production milestone with DPO synthetic data pipeline
-- [2025-11-26] chore: publish comprehensive user guide for instruction fine-tuning datasets
-- [2026-01-18] feat: implement agentic trajectory distillation with tool call traces
-- [2026-02-07] feat: generate synthetic multi-step tool invocation reasoning chains
-- [2026-02-27] test: verify synthetic tool execution outputs adhere to strict JSON schemas
-- [2026-03-19] docs: document agentic trajectory generation for function calling models
-- [2026-04-08] perf: optimize trajectory validation using fast structural schema checks
-- [2026-04-29] fix: ensure compatibility with Python 3.12 and modern typing conventions
-- [2026-05-19] test: verify zero schema violations across 10,000 synthetic agent traces
-- [2026-06-08] chore: bump version to v1.1.2 and update project badges
-- [2026-06-28] docs: add tutorial on fine-tuning reasoning models with synthetic data
-- [2026-07-19] test: add end-to-end integration tests for multi-turn distillation
-- [2026-08-08] perf: optimize Parquet export chunking for multi-gigabyte datasets
-- [2026-08-28] fix: handle special unicode whitespace normalization in prompt inputs
+[2024-04-17T16:37:54] chore: scaffold: initialize synthetic dataset distiller pipeline
+[2024-09-09T10:21:52] feat: mutators: implement evolutionary prompt complexity mutators
+[2024-10-04T12:47:33] feat: filters: add lexical diversity and token length filtering thresholds
+[2025-01-03T10:47:54] test: add unit tests for prompt mutation operators and filter gates
+[2025-04-07T18:31:41] feat: cli: add CLI distillation engine with quality gating output
+[2025-05-13T16:24:32] ci: configure automated CI workflow
+[2026-02-07T12:21:21] docs: complete production README with mutation taxonomy and pipeline specifications
+[2026-02-28T12:15:21] feat: filters: add MinHash near-deduplication filter for synthetic corpora
+[2026-03-05T14:13:16] perf: implement multiprocessing batch mutation worker pool
+[2026-03-21T16:52:46] feat: mutators: add temperature scaling parameter for prompt mutator
+[2026-04-18T15:27:49] docs: update mutation recipes with DeepSeek-R1 style CoT distillation templates
+[2026-10-15T14:32:44] chore: release v0.2.8 and dataset export schemas
