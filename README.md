@@ -32,3 +32,5 @@ python -m distiller.cli
 ## License
 
 Apache 2.0 License (c) 2024 Soujanya Gupta.
+
+<!-- PR #9: docs: clarify benchmark metric configuration options -->
