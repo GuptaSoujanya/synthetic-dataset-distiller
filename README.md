@@ -38,3 +38,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #22: perf: optimize memory buffer reuse during batch evaluation -->
 
 <!-- PR #35: test: expand edge case coverage for empty input strings -->
+
+<!-- PR #48: refactor: clean up typing annotations across core modules -->
