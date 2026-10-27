@@ -40,3 +40,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #35: test: expand edge case coverage for empty input strings -->
 
 <!-- PR #48: refactor: clean up typing annotations across core modules -->
+
+<!-- PR #61: docs: add hardware environment specifications to README -->
