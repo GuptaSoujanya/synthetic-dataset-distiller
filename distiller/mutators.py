@@ -3,3 +3,5 @@ class PromptMutator:
         return f"Please rewrite this problem to require mathematical induction and proof:\n{prompt}"
     def add_constraint(self, prompt: str) -> str:
         return f"Please rewrite this task imposing strict O(1) space complexity:\n{prompt}"
+
+    def set_temperature(self, t: float): pass
